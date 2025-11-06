@@ -62,7 +62,7 @@ export function Menu() {
                 href="#"
                 aria-label="Mudar Tema"
                 title="Mudar Tema"
-                onClick={(event) => handleThemeChange(event)}
+                onClick={handleThemeChange}
             >
                 {nextThemeIcon[theme]}
             </a>
