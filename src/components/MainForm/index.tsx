@@ -4,8 +4,12 @@ import { Cycles } from "../Cycles";
 import { DefaultInput } from "../DefaultInput";
 
 export function MainForm() {
+    function handleCreateNewTask(event: React.FormEvent<HTMLFormElement>) {
+        event.preventDefault()
+    }
+
     return (
-        <form className="form" action="">
+        <form className="form" action="" onSubmit={handleCreateNewTask}>
             <div className="formRow">
                 <DefaultInput 
                     id="meuInput"
