@@ -5,7 +5,7 @@ import { DefaultInput } from "../../components/DefaultInput";
 import { MainTemplate } from "../../templates/MainTemplate";
 import { Heading } from "../../components/Heading";
 import { useEffect, useRef } from "react";
-import { useTaskContext } from "../../contexts/TaskContext/UseTaskContext";
+import { useTaskContext } from "../../contexts/TaskContext/useTaskContext";
 import { showMessage } from "../../adapters/showMessage";
 import { TaskActionsTypes } from "../../contexts/TaskContext/TaskActions";
 

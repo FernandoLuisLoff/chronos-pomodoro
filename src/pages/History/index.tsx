@@ -3,7 +3,7 @@ import { Container } from "../../components/Container";
 import { DefaultButton } from "../../components/DefaultButton";
 import { Heading } from "../../components/Heading";
 import { MainTemplate } from "../../templates/MainTemplate";
-import { useTaskContext } from "../../contexts/TaskContext/UseTaskContext";
+import { useTaskContext } from "../../contexts/TaskContext/useTaskContext";
 import { formatDate } from "../../Utils/formatDate";
 import { getTaskStatus } from "../../Utils/getTaskStatus";
 import { sortTasks, type SortTasksOptions } from "../../Utils/sortTasks";
@@ -59,7 +59,7 @@ export function History() {
 
     useEffect(() => {
         if (!confirmClearHistory) return;
-        
+
         setConfirmClearHistory(false);
 
         dispatch({ type: TaskActionsTypes.RESET_STATE });

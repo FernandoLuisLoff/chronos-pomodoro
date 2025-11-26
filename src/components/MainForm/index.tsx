@@ -4,7 +4,7 @@ import { Cycles } from "../Cycles";
 import { DefaultInput } from "../DefaultInput";
 import { useRef } from "react";
 import type { TaskModel } from "../../models/TaskModel";
-import { useTaskContext } from "../../contexts/TaskContext/UseTaskContext";
+import { useTaskContext } from "../../contexts/TaskContext/useTaskContext";
 import { getNextCycle } from "../../Utils/getNextCycle";
 import { getNextCycleType } from "../../Utils/getNextCycleType";
 import { TaskActionsTypes } from "../../contexts/TaskContext/TaskActions";
